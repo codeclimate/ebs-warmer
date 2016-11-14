@@ -37,7 +37,7 @@ main = do
         <*> getBlockSize (oDevice opts)
 
     let delay = toMicroseconds $ oInterval opts
-        args = ["if=" <> oDevice opts, "of=/dev/null"]
+        args = ["if=" <> oDevice opts, "of=/dev/null", "bs=1M"]
 
     exitWith =<< spawnDD delay args (handleDDLine progress)
 
