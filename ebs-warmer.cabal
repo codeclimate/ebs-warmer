@@ -1,13 +1,13 @@
 name:                ebs-warmer
 version:             0.1.0.0
-synopsis:            Initial project template from stack, using hspec and quickcheck
+synopsis:            Warm an EBS volume by reading all its bytes
 description:         Please see README.md
-homepage:            https://github.com/pbrisbin/ebs-warmer#readme
+homepage:            https://github.com/codeclimate/ebs-warmer#readme
 license:             MIT
 license-file:        LICENSE
-author:              Pat Brisbin
-maintainer:          pbrisbin@gmail.com
-copyright:           2016 Pat Brisbin <pbrisbin@gmail.com>
+author:              Code Climate
+maintainer:          hello@codeclimate.com
+copyright:           2016 Code Climate <hello@gmail.com>
 category:            Network
 build-type:          Simple
 -- extra-source-files:
@@ -49,4 +49,4 @@ test-suite ebs-warmer-test
 
 source-repository head
   type:     git
-  location: https://github.com/pbrisbin/ebs-warmer
+  location: https://github.com/codeclimate/ebs-warmer
